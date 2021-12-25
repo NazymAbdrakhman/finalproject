@@ -1,0 +1,93 @@
+.container{
+    background-color: black;
+}
+.hamburger{
+    color: white;
+}
+html{
+    height: 100%;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+}
+.home{
+    background: url("../img/fon3.jpg");
+}
+.about{
+    background: url("../img/fon2.jpg");
+    
+}
+.contacts{
+    background: url("../img/fon6.jpg");
+
+}
+.etnic{
+    background: url("../img/fon3.jpg");
+}
+.fon{
+    background: url("../img/fon4.jpg");
+}
+.services{
+    background: url("../img/fon1.jpg");
+}
+.vocal{
+    background: url("../img/fon6.jpg");
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.mainn{
+    justify-content: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+#piano,#start,#vocal,#etnic,#drum,#violin,#guitara{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.textarea{
+    margin-top: 20%;
+    margin-right: 30%;
+    font-size: 50px;
+}
+
+.uppertext{
+    color: black;
+
+}
+
+#piano,#vocal,#ethic,#drum,#violin,#guitara{
+    min-height: 800px;
+    border: 1 solid black;
+    
+}
+#piano img{
+    margin-left: 80%;
+}
+
+#vocal img{
+    margin-left: 80%;
+}
+
+#drum img{
+    margin-left: 80%;
+}
+#violin img{
+    margin-left: 80%;
+}
+#guitara img{
+    margin-left:80%;
+}
+
